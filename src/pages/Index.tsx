@@ -16,7 +16,7 @@ const Index = () => {
                 <span className="text-danger" style={{color:"#303bd1"}}>When You Need It</span>
               </h1>
               <p className="text-lg text-gray-600">
-             <b>RAN Transport & Logistics</b>  is your trusted partner in logistics and delivery services. We ensure your packages arrive safely and on time.
+             <b>CITY Van & Removals</b>  is your trusted partner in logistics and delivery services. We ensure your packages arrive safely and on time.
               </p>
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
                 <a
@@ -37,7 +37,7 @@ const Index = () => {
             </div>
             <div className="hidden lg:block">
               <img
-                src="https://th.bing.com/th/id/R.34395591d890d3e46852bda2d0c0397d?rik=7guP7qF3PRbGZg&riu=http%3a%2f%2ffleetcouriers.com%2fwp-content%2fuploads%2f2020%2f04%2fAdobeStock_297916104.jpeg&ehk=MrbbIC8p9WTJoJ5jYpiUrWL4IlCULW5jQzf%2fF7yPY%2bQ%3d&risl=1&pid=ImgRaw&r=0"
+                src="https://amfpk.com/images/test/city.png"
                 alt="Courier Delivery Truck"
                 className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
@@ -75,7 +75,7 @@ const Index = () => {
                 className="rounded-lg shadow-md w-full h-48 object-cover"
               />
               <img
-                src="https://th.bing.com/th/id/OIP.Rsba6rcoPiySv_Aiu2uihQHaE7?w=242&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                src="https://amfpk.com/images/test/city1.png"
                 alt="Delivery Team"
                 className="rounded-lg shadow-md w-full h-48 object-cover"
               />
@@ -172,8 +172,8 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { image: "https://th.bing.com/th/id/OIP.mJRxYAgnM28duOpo9etOpwHaFI?w=224&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", title: "Small Van", desc: "Perfect for small parcels and quick deliveries" },
-              { image: "https://th.bing.com/th/id/OIP.9cMSCA44MFB5p4jdMZzSKgHaEc?w=285&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", title: "Medium Van", desc: "Ideal for furniture and medium-sized shipments" },
+              { image: "https://amfpk.com/images/test/city3.png", title: "Small Van", desc: "Perfect for small parcels and quick deliveries" },
+              { image: "https://amfpk.com/images/test/city4.png", title: "Medium Van", desc: "Ideal for furniture and medium-sized shipments" },
               { image: "https://th.bing.com/th/id/OIP.Guwoxk_5CwgKbFKR3Ovn2QHaE7?w=298&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7", title: "Large Van", desc: "Suitable for commercial and bulk deliveries" }
             ].map((van, index) => (
               <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -255,11 +255,11 @@ const Index = () => {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <Phone className="text-danger" size={24} />
-                <span>+44 7909 057517</span>
+                <span>+44 7440 325796</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="text-danger" size={24} />
-                <span>Rantransport@icloud.com</span>
+                <span>cityvanremovals@gmail.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-danger" size={24} />
@@ -299,7 +299,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">RAN Transport & Logistics</h3>
+              <h3 className="text-xl font-bold mb-4">CITY Van & Removals</h3>
               <p className="text-gray-400">
                 Your trusted partner in logistics and delivery services.
               </p>
@@ -340,7 +340,7 @@ const Index = () => {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; 2025 RAN Transport & Logistics Ltd. All rights reserved.</p>
+            <p>&copy; 2025 CITY Van & Removals. All rights reserved.</p>
           </div>
         </div>
       </footer>
